@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EpicShop</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expend-md sticky-top">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="img\ЛОГО.png" alt="">
+      <div class="navbar-menu">
+        <ul class="menu">
+         <li><a href="/">ГЛАВНАЯ</a></li>
+         <li><a href="кресла.html">КРЕСЛА</a></li>
+         <li><a href="гарнитуры.html">ГАРНИТУРЫ</a></li>
+         <li><a href="клавиатуры.html">КЛАВИАТУРЫ</a></li>
+         <li><a href="мыши.html">МЫШИ</a></li>
+         <li><a href="столы.html">СТОЛЫ</a></li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             ПРОЧЕЕ
+           </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <a class="dropdown-item" href="прочее(помощь).html">ПОМОЩЬ</a>
+             <a class="dropdown-item" href="об оплате и доставке.html">ОБ ОПЛАТЕ И ДОСТАВКЕ</a>
+           </div>
+           <a href="избранное.html" class="nav-link"><img class="i1" src="img\image 2.png" ></a>
+           <a href="корзина.html  " class="nav-link"><img class="i1" src="img\image 1.png" ></a>
+         </li>
+        </ul>
+     </div>
+    </div>
+</nav>
+
+    <main class="container-fluid contant">
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-11 ">
+        <h1 class="igs">КРЕСЛА</h1>
+
+          <div class="kr1"> 
+            <div class="st1"><img src="img\стул 3.png" alt=""></div>
+              <a href="#" class="serdce" data-id="product-1"><img src="img\image 2.png" alt="" class="serdce"></a>
+            <a class="stn1"><h3 class="stn1">Freelancer P3</h3></a>
+            <p class="cena-minus">23 990 Р</p>
+            <p class="cena">17 993 Р</p>
+            <a href="#" class="kn1 buy-button"  onclick="addToCart('product-1')">В КОРЗИНУ</a>
+          </div>
+
+        <div class="kr2"> 
+          <div class="st2"><img src="img\стул1-1.png" alt=""></div>
+          <a href="#" class="serdce2" data-id="product-2" id="2"><img src="img\image 2.png" alt="" class="serdce2"></a>
+          <a class="stn2"><h3 class="stn2">ZONE 51 PREDATOR </h3></a>
+          <p class="cena2">35 990 Р</p>
+          <a href="#" class="kn1 buy-button"  onclick="addToCart('product-2')">В КОРЗИНУ</a>
+       </div>
+
+       <div class="kr3"> 
+        <div class="st3"><img src="img\стул2-2.png" alt=""></div>
+        <a href="#" class="serdce"  data-id="product-3" id="3"><img src="img\image 2.png" alt="" class="serdce"></a>
+        <a class="stn3"><h3 class="stn3">DXRacer F - серии «Formula» </h3></a>
+        <p class="cena3">37 990 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-3')">В КОРЗИНУ</a>
+     </div>
+
+     <div class="kr4"> 
+      <div class="st4"><img src="img\стул4.png" alt=""></div>
+      <a href="#" class="serdce4" data-id="product-4"><img src="img\image 2.png" alt="" class="serdce4"></a>
+      <a class="stn4"><h3 class="stn4">Intel Extreme Masters </h3></a>
+      <p class="cena3">14 990 Р</p>
+      <a href="#" class="kn1 buy-button"  onclick="addToCart('product-4')">В КОРЗИНУ</a>
+   </div>
+
+      <div class="kr5"> 
+        <div class="st5"><img src="img\стул5.png" alt=""></div>
+        <a href="#" class="serdce5" data-id="product-5"><img src="img\image 2.png" alt="" class="serdce5"></a>
+        <a class="stn4"><h3 class="stn4">KITTY MEOW EDITION</h3></a>
+        <p class="cena5">26 990 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-5')">В КОРЗИНУ</a>
+      </div>
+      
+      <div class="kr6"> 
+        <div class="st6"><img src="img\стул6 (2).png" alt=""></div>
+        <a href="#" class="serdce6" data-id="product-6"><img src="img\image 2.png" alt="" class="serdce6"></a>
+        <a class="stn4"><h3 class="stn4">Игровая софа RIDER</h3></a>
+        <p class="cena6">26 990 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-6')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr7"> 
+        <div class="st7"><img src="img\стул7.png" alt=""></div>
+        <a href="#" class="serdce7" data-id="product-7"><img src="img\image 2.png" alt="" class="serdce7"></a>
+        <a class="stn4"><h3 class="stn4">ZONE FROST</h3></a>
+        <p class="cena-minus2">23 990 Р</p>
+        <p class="cena7">20 243 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-7')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr8"> 
+        <div class="st8"><img src="img\стул 8.png" alt=""></div>
+        <a href="#" class="serdce8" data-id="product-8"><img src="img\image 2.png" alt="" class="serdce8"></a>
+        <a class="stn1"><h3 class="stn4">Aerocool Ac120 Red</h3></a>
+        <p class="cena6">16 000 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-8')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr9"> 
+        <div class="st9"><img src="img\стул 9.png" alt=""></div>
+        <a href="#" class="serdce9" data-id="product-9"><img src="img\image 2.png" alt="" class="serdce9"></a>
+        <a class="stn1"><h3 class="stn4">Razer Iskur - Black / Green - XL</h3></a>
+        <p class="cena9">50 000 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-9')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr10"> 
+        <div class="st10"><img src="img\стул 10.png" alt=""></div>
+        <a href="#" class="serdce10" data-id="product-10"><img src="img\image 2.png" alt="" class="serdce10"></a>
+        <a class="stn10"><h3 class="stn10">Razer Enki X</h3></a>
+        <p class="cena10">28 199 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-10')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr11"> 
+        <div class="st11"><img src="img\стул 11.png" alt=""></div>
+        <a href="#" class="serdce11" data-id="product-11"><img src="img\image 2.png" alt="" class="serdce11"></a>
+        <a class="stn11"><h3 class="stn11">Razer Iskur X - Black 
+        <br> Green - XL</h3></a>
+        <p class="cena11">37 299 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-11')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr12"> 
+        <div class="st12"><img src="img\стул 12.png" alt=""></div>
+        <a href="#" class="serdce12" data-id="product-12"><img src="img\image 2.png" alt="" class="serdce12"></a>
+        <a class="stn12"><h3 class="stn12">Aorus AGC300 V2 Black</h3></a>
+        <p class="cena12">27 840 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-12')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr13"> 
+        <div class="st13"><img src="img\стул 13.png" alt=""></div>
+        <a href="#" class="serdce13" data-id="product-13"><img src="img\image 2.png" alt="" class="serdce13"></a>
+        <a class="stn13"><h3 class="stn13">DXRacer R - серии “Racing” </h3></a>
+        <p class="cena13">15 840 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-13')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr14">
+        <div class="st14"><img src="img\стул 14.png" alt=""></div>
+        <a href="#" class="serdce14" data-id="product-14"><img src="img\image 2.png" alt="" class="serdce14"></a>
+        <a class="stn14"><h3 class="stn14">Razer Enki, Quartz </h3></a>
+        <p class="cena14">33 193 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-14')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr15">
+        <div class="st15"><img src="img\стул 15.png" alt=""></div>
+        <a href="#" class="serdce15" data-id="product-15"><img src="img\image 2.png" alt="" class="serdce15"></a>
+        <a class="stn15"><h3 class="stn15">FROST RGB </h3></a>
+        <p class="cena15">28 990 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-15')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr16">
+        <div class="st16"><img src="img\стул 16.png" alt=""></div>
+        <a href="#" class="serdce16" data-id="product-16"><img src="img\image 2.png" alt="" class="serdce16"></a>
+        <a class="stn16"><h3 class="stn16">INVADER X-Weave </h3></a>
+        <p class="cena16">28 990 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-16')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr17">
+        <div class="st17"><img src="img\стул 17.png" alt=""></div>
+        <a href="#" class="serdce17" data-id="product-17"><img src="img\image 2.png" alt="" class="serdce17"></a>
+        <a class="stn17"><h3 class="stn17">Cougar Outrider S Royal</h3></a>
+        <p class="cena17">29 840 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-17')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr18">
+        <div class="st18"><img src="img\стул 18.png" alt=""></div>
+        <a href="#" class="serdce18" data-id="product-18"><img src="img\image 2.png" alt="" class="serdce18"></a>
+        <a class="stn18"><h3 class="stn17">Cougar Fortress Royal</h3></a>
+        <p class="cena18">23 990 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-18')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr19">
+        <div class="st19"><img src="img\стул 19.png" alt=""></div>
+        <a href="#" class="serdce19" data-id="product-19"><img src="img\image 2.png" alt="" class="serdce19"></a>
+        <a class="stn19"><h3 class="stn19">Cougar Fortress White</h3></a>
+        <p class="cena19">22 990 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-19')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr20">
+        <div class="st20"><img src="img\стул 20.png" alt=""></div>
+        <a href="#" class="serdce20" data-id="product-20"><img src="img\image 2.png" alt="" class="serdce20"></a>
+        <a class="stn20"><h3 class="stn20">Razer Fujin Pro</h3></a>
+        <p class="cena20">129 999 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-20')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr21">
+        <div class="st21"><img src="img\стул 21.png" alt=""></div>
+        <a href="#" class="serdce21" data-id="product-21"><img src="img\image 2.png" alt="" class="serdce21"></a>
+        <a class="stn21"><h3 class="stn21">Cougar Fortress Purple</h3></a>
+        <p class="cena21">22 990 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-21')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr22">
+        <div class="st22"><img src="img\стул 22.png" alt=""></div>
+        <a href="#" class="serdce22" data-id="product-22"><img src="img\image 2.png" alt="" class="serdce22"></a>
+        <a class="stn22"><h3 class="stn22">ARMADA Royal</h3></a>
+        <p class="cena22">30 000 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-22')">В КОРЗИНУ</a>
+      </div>
+
+      <div class="kr23">
+        <div class="st23"><img src="img\стул 23.png" alt=""></div>
+        <a href="#" class="serdce23" data-id="product-23"><img src="img\image 2.png" alt="" class="serdce23"></a>
+        <a class="stn23"><h3 class="stn23">Cougar NxSys Aero Orange</h3></a>
+        <p class="cena23">49 990 Р</p>
+        <a href="#" class="kn1 buy-button"  onclick="addToCart('product-23')">В КОРЗИНУ</a>
+      </div>
+      <p class="tkr">Несмотря на свое название, компьютерное геймерское кресло
+         полезно не только для тех, кто длительное время проводит за компьютерными играми,
+          но и, например, для офисных работников, а также в целом для всех, кто ценит 
+          комфорт и заботится о своем здоровье. Игровое кресло отличается от простого 
+          офисного тем, что имеет  анатомическое сиденье и <br> спинку с правильным анатомическим 
+          изгибом, которая помогает<br> поддерживать правильную осанку.</p>
+
+       <p class="tkr2">Также во всех моделях присутствуют множество регулировок, которые позволяют 
+        настроить посадку под себя, а также ярко-выраженный упор для поясницы и шеи.</p>   
+        </div>
+    </main>
+    <div class="container-fluid footer">
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-11 ">
+        <img class="brand" src="img\ЛОГО.png" alt="">
+          <div class="footer-menu">
+             <a href="/" class="nav-link">ГЛАВНАЯ</a>
+              <a href="кресла.html" class="nav-link active">КРЕСЛА</a>
+              <a href="гарнитуры.html" class="nav-link">ГАРНИТУРЫ</a>
+              <a href="клавиатуры.html" class="nav-link">КЛАВИАТУРЫ</a>
+              <a href="мыши.html" class="nav-link">МЫШИ</a>
+              <a href="столы.html" class="nav-link">СТОЛЫ</a>
+          </div>
+          <hr width="100%;" color="#DDDDDD" size="5" class="lin1">
+          <p class="kp">2024© EpicShop</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    <script src="js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
